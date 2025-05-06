@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>maze_solver_bot</name>
+  <version>0.0.1</version>
+  <description>Maze solver bot using Lidar, IMU, and Odometry</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+</package>
